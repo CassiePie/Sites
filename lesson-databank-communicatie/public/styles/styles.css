@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.main-nav {
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.main-footer {
+    margin-top: 2em;
+    text-align: center;
+    color: dimgray;
+}
+
+.post-details {
+    margin-top: 2em;
+}
+
+.post-header {
+    margin-bottom: 2em;
+}
+
+.post-title {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.post-subtitle {
+    font-size: large;
+    margin: 0;
+}
+
+.post-actions {
+    background-color: lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 0 2em;
+}
+
+.pagination {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.posts-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.post-small {}
+
+.post-small-title {
+    margin: 0;
+}
+
+.post-small-subtitle {
+    margin: 0 0 .5em 0;
+    color: rgb(100, 100, 100);
+}
+
+.post-small-content {
+    margin-bottom: .5rem;
+    color: rgb(45, 45, 45);
+}
+
+.comments {}
+
+.comments>h3 {
+    padding-bottom: .2em;
+    border-bottom: 1px solid lightgray
+}
+
+.comment-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2em;
+}
+
+.comment-actions {
+    color: gray;
+    border-top: 1px solid gray;
+    margin-top: .15em;
+}
+
+.comments-list {
+    display: grid;
+    gap: 2em;
+    grid-column: span 3;
+}
+
+.comment-form {
+    grid-column: span 2;
+}
+
+.comment {
+    margin: 0;
+}
+
+.comment-cite {
+    font-weight: bold;
+}
+
+.form-content input,
+.form-content textarea {
+    width: 100%;
+}
+
+.form-content input[type=checkbox],
+.form-content input[type=radio] {
+    width: initial;
+}
+
+.form-content textarea {
+    height: 100px;
+}
+
+.form-error {
+    color: red;
+}
+
+.form-content {
+    display: grid;
+    gap: 1em;
+}
+
+.form-content input {
+    padding: .5em;
+}
